@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: #323232;
+}
+
+img {
+    width: 60vw;
+    height: 60vh;
+
+}
+
+h1 {
+
+    color: #Cfff00;
+    font-size: 40px;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#input-real {
+    border: 2px solid #Cfff00;
+}
+
+#input-dolar {
+    border: 2px solid red;
+
+}
+
+p {
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
+button {
+    height: 35px;
+    width: 110px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #323232;
+}
+
+button:hover {
+    outline: dotted #Cfff00;
+    height: 30px;
+    width: 91px;
+    background-color: #Cfff00;
+    color: #323232;
+}

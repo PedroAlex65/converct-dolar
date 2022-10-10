@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Dolar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./script.js">
+</head>
+
+<body>
+    <img src="./my-dolar.gif" />
+    <h1>My Dolar</h1>
+
+</body>
+<div>
+    <input  id="input-real" type="number" placeholder="Valor em Reais">
+    <input  id="input-dolar" placeholder="Valor em dolar" </br>
+    <p id="dolares" >$</p>
+
+    <button onclick="calcularDolar()">Converter</button>
+
+</div>
+
+<script>
+    function calcularDolar(){
+        let real = document.getElementById("input-real").value
+        let dolar = document.getElementById("input-dolar").value
+
+        let resultado = real * dolar
+        
+        dolares.innerHTML = '$ ' + resultado // insere o valor do resultado no nosso paragrafo
+
+alert('O resultado é $'+ resultado + ' dólares') // mostra na tela o resultado
+    }
+
+
+</script>
+
+</html>
